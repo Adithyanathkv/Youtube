@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./videopage.css">
+    <title>youtube page</title>
+</head>
+<body>
+    <div id="navcontainer">
+        <div id="section1">
+            <img src="./images/external-menu-interface-dreamstale-lineal-dreamstale.png" alt="" id="menu">
+        
+            <img src="https://www.transparentpng.com/thumb/youtube-logo/hd-youtube-logo-image-5.png" alt="" id="logo">
+        </div>
+        <div id="section2">
+            <input type="text" id="search" placeholder="Search">
+            <button  onclick="getVideo()"><img src="./images/search--v1.png" alt="" id="searchlogo" ></button>
+            <img src="./images/microphone--v1.png" alt="" id="mic">
+        </div>
+    <div id="section3">
+        <img src="./images/camcorder-pro.png" alt="" id="video">
+        <img src="./images/external-menu-basic-ui-elements-flatart-icons-outline-flatarticons.png" alt="" id="category">
+        <img src="./images/external-bell-ui-essential-kmg-design-basic-outline-kmg-design.png" alt="" id="bell">
+        <img src="./images/unnamed.jpg" alt="" id="account">
+    </div>
+
+    </div>
+    <div id="outercontainer">
+        <div id="innercontainer">
+            <div id="videocontainer">
+    
+            </div>
+            <div id="description">
+                
+            </div>
+            <div id="comments">
+                <input type="text" placeholder="Add comments" id="addcomments" onblur="add()">
+            </div>
+
+            <div id="showComments"></div>
+        </div>
+        <div id="othervideo">
+
+        </div>
+    </div>
+</body>
+<script src="./videopage.js"></script>
+</html>
