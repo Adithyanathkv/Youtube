@@ -50,14 +50,14 @@ getVideo();
 const displaydata2 = (DataArray) => {
   let inp = JSON.parse(localStorage.getItem("name"));
   console.log('inp:', inp)
-  DataArray.map(({snippet:{title,channelTitle}}) => {
+  DataArray.map(({snippet:{title,channelTitle,thumbnails}}) => {
     
     let div = document.createElement("div");
 
-    let iframe = document.createElement("iframe");
-    iframe.src = `https://www.youtube.com/embed/${channelTitle}`;
-    iframe.width = "168px";
-    iframe.height = "94px";
+    let iframe = document.createElement("img");
+    iframe.src = thumbnails.high.url
+    iframe.id="content-Image"
+   
     let detailsdiv = document.createElement("div");
 
     let Title = document.createElement("h4");
@@ -111,3 +111,4 @@ function displaydata3(commentArray)
 }
 
 
+  

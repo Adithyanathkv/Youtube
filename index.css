@@ -118,12 +118,15 @@ body{
 
 #filters1{
     flex-basis: 10%; 
-    height: 100vh;
+    /* height: 100vh; */
+    height: max-content;
+    border-bottom: 1px solid grey;
 }
 #filters1>div{
     display: flex;
     width: 100%;
     padding: 15px 5px;
+    /* border-bottom: 1px solid grey; */
 }
 #filters1>div>img{
     display: block;
@@ -133,6 +136,7 @@ body{
 }
 #filters1>div>h6{
     text-align: right;
+    font-weight: lighter;
 }
 
 

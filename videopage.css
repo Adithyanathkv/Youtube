@@ -155,6 +155,14 @@ border: 0;
     display: flex;
     margin-bottom: 20px;
 }
+#othervideo>div div{
+    flex-basis: 50%;
+    margin-left: 10px;
+}
+#content-Image{
+    width: 168px;
+    height: 94px;
+}
 
 
 #addcomments{
