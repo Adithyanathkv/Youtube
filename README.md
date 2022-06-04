@@ -1,6 +1,7 @@
 # Youtube
  youtubeClone
 Clone of youtube with basic functionality of watching the videos and to add comment to the video.
+Deploy link: https://youtubeapp13.netlify.app/
 <br>
 <br>
 <img src="./images/Screenshot 2022-06-04 121328.jpg" alt="">
