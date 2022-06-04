@@ -1,4 +1,4 @@
-# Youtube
+# Youtube Clone
  youtubeClone
 This project is clone of youtube app.It shows the basic functionality of viewing videos from home page, searching desired video from serachbar,playing the searched video and to add comment to the video.
 Deploy link: https://youtubeapp13.netlify.app/
