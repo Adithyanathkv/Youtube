@@ -4,6 +4,7 @@ This project is clone of youtube app.It shows the basic functionality of viewing
 Deploy link: https://youtubeapp13.netlify.app/
 <br>
 <br>
+<h2>Home page of the app</h2>
 <img src="./images/Screenshot 2022-06-04 121328.jpg" alt="">
 <h2> Playing the video after serching</h2>
 <img src="./images/Screenshot 2022-06-04 121524.jpg" alt="">
