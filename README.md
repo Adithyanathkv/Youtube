@@ -3,6 +3,7 @@
 This project is clone of youtube app.It shows the basic functionality of viewing videos from home page, searching desired video from serachbar,playing the searched video and to add comment to the video.
 
 -If you want to visit the roject then just click on the link given below:
+
 [Project Netlify link](https://youtubeapp13.netlify.app/)
 <br>
 <br>
